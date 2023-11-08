@@ -1,13 +1,16 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"tiles_desert","order":1,"path":"tilesets/tiles_desert/tiles_desert.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"obj_guard","order":8,"path":"objects/obj_guard/obj_guard.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_player","order":2,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_bush","order":5,"path":"objects/obj_bush/obj_bush.yy",},
+    {"name":"rm_desert","order":1,"path":"rooms/rm_desert/rm_desert.yy",},
     {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_actor","order":3,"path":"objects/obj_actor/obj_actor.yy",},
+    {"name":"spr_desertmap","order":6,"path":"sprites/spr_desertmap/spr_desertmap.yy",},
     {"name":"obj_no_move","order":1,"path":"objects/obj_no_move/obj_no_move.yy",},
     {"name":"obj_collidable","order":4,"path":"objects/obj_collidable/obj_collidable.yy",},
     {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},

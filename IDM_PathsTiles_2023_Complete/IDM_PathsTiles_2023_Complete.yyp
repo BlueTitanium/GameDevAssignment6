@@ -33,6 +33,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"tiles_desert","path":"tilesets/tiles_desert/tiles_desert.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},},
     {"id":{"name":"tiles_town","path":"tilesets/tiles_town/tiles_town.yy",},},
@@ -41,8 +42,10 @@
     {"id":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},},
     {"id":{"name":"spr_townmap","path":"sprites/spr_townmap/spr_townmap.yy",},},
     {"id":{"name":"path_patrol","path":"paths/path_patrol/path_patrol.yy",},},
+    {"id":{"name":"rm_desert","path":"rooms/rm_desert/rm_desert.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},},
+    {"id":{"name":"spr_desertmap","path":"sprites/spr_desertmap/spr_desertmap.yy",},},
     {"id":{"name":"obj_no_move","path":"objects/obj_no_move/obj_no_move.yy",},},
     {"id":{"name":"obj_collidable","path":"objects/obj_collidable/obj_collidable.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
@@ -55,6 +58,7 @@
     {"id":{"name":"rm_town","path":"rooms/rm_town/rm_town.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_desert","path":"rooms/rm_desert/rm_desert.yy",},},
     {"roomId":{"name":"rm_town","path":"rooms/rm_town/rm_town.yy",},},
   ],
   "TextureGroups": [
