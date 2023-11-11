@@ -27,11 +27,23 @@ if keyboard_check(ord("S")){
 	}
 }
 hspd = lengthdir_x(mspd,move_dir)	// find x&y speed by using angle and base speed
+
+if(hspd > 0){
+	image_xscale = abs(image_xscale);
+} else if (hspd < 0){
+	image_xscale = -abs(image_xscale);
+}
 vspd = lengthdir_y(mspd,move_dir)
+
+
+
 
 if keyboard_check(ord("W"))
 or keyboard_check(ord("A"))
 or keyboard_check(ord("S"))
 or keyboard_check(ord("D")){		// if pressing any move keys, move player!
+	sprite_index = spr_player_run;	
 	MoveCollide()
+}else {
+	sprite_index = spr_player_idle;	
 }
