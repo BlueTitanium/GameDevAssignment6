@@ -17,18 +17,18 @@ if(is_tamed){
 	}
 
 	if(x < target.x){
-		image_xscale = -abs(image_xscale);
-	} else {
 		image_xscale = abs(image_xscale);
+	} else {
+		image_xscale = -abs(image_xscale);
 	}
 
 } else {
 	if(path_index == -1){
 		path_x = ds_list_find_value(point_list,index)[0];
 		if(x < path_x){
-			image_xscale = -abs(image_xscale);
-		} else {
 			image_xscale = abs(image_xscale);
+		} else {
+			image_xscale = -abs(image_xscale);
 		}
 
 		path_y = ds_list_find_value(point_list,index)[1];
@@ -54,6 +54,7 @@ if(is_tamed){
 		path_end();
 		//spawn hearts
 		instance_create_layer(x,y,"Instances",obj_hearts);
+		sprite_index = spr_camel_walk_tamed;
 	}
 
 }

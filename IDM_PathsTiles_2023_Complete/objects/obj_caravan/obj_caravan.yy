@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_guard",
-    "path": "sprites/spr_guard/spr_guard.yy",
+    "name": "spr_caravan_moving",
+    "path": "sprites/spr_caravan_moving/spr_caravan_moving.yy",
   },
   "spriteMaskId": null,
   "visible": true,

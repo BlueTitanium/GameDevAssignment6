@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dog",
-    "path": "sprites/spr_dog/spr_dog.yy",
+    "name": "spr_camel_walk",
+    "path": "sprites/spr_camel_walk/spr_camel_walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,
