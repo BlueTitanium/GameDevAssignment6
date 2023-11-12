@@ -1,3 +1,5 @@
+randomize();
+
 mspd = 1.5
 
 move_dir = 0
@@ -16,3 +18,5 @@ bumped_into_something = false
 gold = 0;
 var gold_sprite = instance_create_layer(32,32,"Instances",obj_ui_sprite);
 gold_sprite.sprite_index = spr_coin;
+
+can_move = true;

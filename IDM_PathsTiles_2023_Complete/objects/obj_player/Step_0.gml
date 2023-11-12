@@ -38,12 +38,17 @@ vspd = lengthdir_y(mspd,move_dir)
 
 
 
-if keyboard_check(ord("W"))
+if can_move and (keyboard_check(ord("W"))
 or keyboard_check(ord("A"))
 or keyboard_check(ord("S"))
-or keyboard_check(ord("D")){		// if pressing any move keys, move player!
+or keyboard_check(ord("D"))){		// if pressing any move keys, move player!
 	sprite_index = spr_player_run;	
 	MoveCollide()
 }else {
 	sprite_index = spr_player_idle;	
+}
+
+
+if(keyboard_check_pressed(ord("R"))){
+	room_restart();	
 }
